@@ -12,8 +12,8 @@
 </head>
 <body class="">
   <header class="">
-    <div class="py-10 justify-between flex px-16">
-      <h1  class="text-5xl text-blue-600  font-extrabold dancing-script">Well<span id="animated-text">come to krishna consciousness</span></h1>
+    <div class="lg:py-10 justify-between lg:flex-row flex-col py-6 flex lg:px-16">
+      <h1  class="lg:text-5xl text-4xl text-blue-600  font-extrabold dancing-script">Well<span id="animated-text">come to krishna consciousness</span></h1>
       <div>
         <figure>
           <img class="w-20 rounded-lg shadow-lg" src="./img/krishnanlog.jpg" alt="">
@@ -21,13 +21,13 @@
       </div>
     </div>
   </header>
-  <hr>
+  
   <main class=" bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% ...">
-    <div>
-      <div class=" lg:grid-flow-col md:grid-cols-2 grid grid-cols-1 gap-7 justify-around lg:px-20">
-        <div class="w-72 h-44 items-center justify-center flex rounded-lg shadow-lg bg-slate-100 ">
+    <div class="justify-center w-full">
+      <div class="flex lg:flex-row flex-col text-center gap-5 justify-between lg:px-20">
+        <div class="w-72 mx-auto h-44 items-center justify-center flex rounded-lg bg-slate-100 ">
           <div class="justify-center">
-            <h2  class="text-center my-3 font-semibold underline text-xl underline-offset-8">
+            <h2  class="text-center font-semibold underline text-xl underline-offset-4">
               Hare Kirshna 
             </h2>
             <h3 id="hareKrishnaDisplay" class="text-xl my-3 bg-white font-semibold justify-center flex">0</h3>
@@ -41,9 +41,9 @@
             </div>
           </div>
         </div>
-        <div class=" w-72 h-44 items-center justify-center flex rounded-lg shadow-lg  bg-slate-100">
+        <div class=" w-72 mx-auto h-44 items-center justify-center flex rounded-lg shadow-lg  bg-slate-100">
           <div class="justify-center">
-            <h2 class="text-center my-3 font-semibold underline text-xl underline-offset-8">
+            <h2 class="text-center  font-semibold underline text-xl underline-offset-4">
               Radhe Radhe
             </h2>
             <h3 id="radheIncrementValue" class="text-xl font-semibold justify-center flex">0</h3>
@@ -57,7 +57,7 @@
             </div>
           </div>
         </div>
-        <div class="w-72 h-44 items-center justify-center flex rounded-lg shadow-lg bg-slate-100">
+         <div class="w-72 mx-auto h-44 items-center justify-center flex rounded-lg shadow-lg bg-slate-100">
           <div class="justify-center">
             <h2 class="text-center my-3 font-semibold underline text-xl underline-offset-8">
               Horibol 
@@ -79,10 +79,10 @@
         <button id="reset" class="btn btn-ghost px-10 bg-red-400">Reset all</button>
       </div>
       <div class="flex flex-col ">
-        <figure class="justify-end flex px-20x px-24">
-          <img class="w-24 rounded-lg shadow-lg " src="./img/music logo.avif" alt="">
+        <figure class="justify-end flex lg:px-20x  px-6">
+           <img class="w-24 rounded-lg shadow-lg " src="./img/music logo.avif" alt="">
         </figure>
-        <div class="w-full justify-end flex px-20">
+        <div class="w-full justify-end flex px-3 lg:px-20">
           
           <button class=" btn btn-ghost bg-green-500 text-xl font-semibold poppins-thin " onclick="toggleMusic()">Play Music</button>
         </div>
